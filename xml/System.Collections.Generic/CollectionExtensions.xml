@@ -1,0 +1,335 @@
+<Type Name="CollectionExtensions" FullName="System.Collections.Generic.CollectionExtensions">
+  <TypeSignature Language="C#" Value="public static class CollectionExtensions" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CollectionExtensions extends System.Object" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="DocId" Value="T:System.Collections.Generic.CollectionExtensions" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="VB.NET" Value="Public Module CollectionExtensions" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="F#" Value="type CollectionExtensions = class" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CollectionExtensions abstract sealed" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+  <AssemblyInfo>
+    <AssemblyName>System.Collections</AssemblyName>
+    <AssemblyVersion>4.1.0.0</AssemblyVersion>
+    <AssemblyVersion>4.1.1.0</AssemblyVersion>
+    <AssemblyVersion>4.1.2.0</AssemblyVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <AssemblyVersion>7.0.0.0</AssemblyVersion>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+    <AssemblyVersion>9.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>netstandard</AssemblyName>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Collections" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+  </TypeForwardingChain>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetAlternateLookup&lt;T,TAlternate&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.HashSet&lt;T&gt;.AlternateLookup&lt;TAlternate&gt; GetAlternateLookup&lt;T,TAlternate&gt; (this System.Collections.Generic.HashSet&lt;T&gt; set);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Collections.Generic.HashSet`1/AlternateLookup`1&lt;!!T, !!TAlternate&gt; GetAlternateLookup&lt;T, TAlternate&gt;(class System.Collections.Generic.HashSet`1&lt;!!T&gt; set) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.CollectionExtensions.GetAlternateLookup``2(System.Collections.Generic.HashSet{``0})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAlternateLookup(Of T, TAlternate) (set As HashSet(Of T)) As HashSet(Of T).AlternateLookup(Of TAlternate)" />
+      <MemberSignature Language="F#" Value="static member GetAlternateLookup : System.Collections.Generic.HashSet&lt;'T&gt; -&gt; System.Collections.Generic.HashSet&lt;'T&gt;.AlternateLookup&lt;'Alternate&gt;" Usage="System.Collections.Generic.CollectionExtensions.GetAlternateLookup set" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename TAlternate&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::HashSet&lt;T&gt;::AlternateLookup&lt;TAlternate&gt; GetAlternateLookup(System::Collections::Generic::HashSet&lt;T&gt; ^ set);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Collections</AssemblyName>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue />
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <typeparam name="TAlternate">To be added.</typeparam>
+        <param name="set">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlternateLookup&lt;T,TAlternate&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.HashSet&lt;T&gt;.AlternateLookup&lt;TAlternate&gt; GetAlternateLookup&lt;T,TAlternate&gt; (this System.Collections.Generic.HashSet&lt;T&gt; set);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Collections.Generic.HashSet`1/AlternateLookup`1&lt;!!T, !!TAlternate&gt; GetAlternateLookup&lt;T, TAlternate&gt;(class System.Collections.Generic.HashSet`1&lt;!!T&gt; set) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.CollectionExtensions.GetAlternateLookup``2(System.Collections.Generic.HashSet{``0})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAlternateLookup(Of T, TAlternate) (set As HashSet(Of T)) As HashSet(Of T).AlternateLookup(Of TAlternate)" />
+      <MemberSignature Language="F#" Value="static member GetAlternateLookup : System.Collections.Generic.HashSet&lt;'T&gt; -&gt; System.Collections.Generic.HashSet&lt;'T&gt;.AlternateLookup&lt;'Alternate&gt;" Usage="System.Collections.Generic.CollectionExtensions.GetAlternateLookup set" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename TAlternate&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::HashSet&lt;T&gt;::AlternateLookup&lt;TAlternate&gt; GetAlternateLookup(System::Collections::Generic::HashSet&lt;T&gt; ^ set);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Collections</AssemblyName>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue />
+      <Docs>
+        <typeparam name="T">To be added.</typeparam>
+        <typeparam name="TAlternate">To be added.</typeparam>
+        <param name="set">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlternateLookup&lt;TKey,TValue,TAlternateKey&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;TKey,TValue&gt;.AlternateLookup&lt;TAlternateKey&gt; GetAlternateLookup&lt;TKey,TValue,TAlternateKey&gt; (this System.Collections.Generic.Dictionary&lt;TKey,TValue&gt; dictionary);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Collections.Generic.Dictionary`2/AlternateLookup`1&lt;!!TKey, !!TValue, !!TAlternateKey&gt; GetAlternateLookup&lt;TKey, TValue, TAlternateKey&gt;(class System.Collections.Generic.Dictionary`2&lt;!!TKey, !!TValue&gt; dictionary) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.CollectionExtensions.GetAlternateLookup``3(System.Collections.Generic.Dictionary{``0,``1})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAlternateLookup(Of TKey, TValue, TAlternateKey) (dictionary As Dictionary(Of TKey, TValue)) As Dictionary(Of TKey, TValue).AlternateLookup(Of TAlternateKey)" />
+      <MemberSignature Language="F#" Value="static member GetAlternateLookup : System.Collections.Generic.Dictionary&lt;'Key, 'Value&gt; -&gt; System.Collections.Generic.Dictionary&lt;'Key, 'Value&gt;.AlternateLookup&lt;'AlternateKey&gt;" Usage="System.Collections.Generic.CollectionExtensions.GetAlternateLookup dictionary" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue, typename TAlternateKey&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::Dictionary&lt;TKey, TValue&gt;::AlternateLookup&lt;TAlternateKey&gt; GetAlternateLookup(System::Collections::Generic::Dictionary&lt;TKey, TValue&gt; ^ dictionary);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Collections</AssemblyName>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue />
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <typeparam name="TAlternateKey">To be added.</typeparam>
+        <param name="dictionary">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlternateLookup&lt;TKey,TValue,TAlternateKey&gt;">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;TKey,TValue&gt;.AlternateLookup&lt;TAlternateKey&gt; GetAlternateLookup&lt;TKey,TValue,TAlternateKey&gt; (this System.Collections.Generic.Dictionary&lt;TKey,TValue&gt; dictionary);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Collections.Generic.Dictionary`2/AlternateLookup`1&lt;!!TKey, !!TValue, !!TAlternateKey&gt; GetAlternateLookup&lt;TKey, TValue, TAlternateKey&gt;(class System.Collections.Generic.Dictionary`2&lt;!!TKey, !!TValue&gt; dictionary) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.CollectionExtensions.GetAlternateLookup``3(System.Collections.Generic.Dictionary{``0,``1})" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAlternateLookup(Of TKey, TValue, TAlternateKey) (dictionary As Dictionary(Of TKey, TValue)) As Dictionary(Of TKey, TValue).AlternateLookup(Of TAlternateKey)" />
+      <MemberSignature Language="F#" Value="static member GetAlternateLookup : System.Collections.Generic.Dictionary&lt;'Key, 'Value&gt; -&gt; System.Collections.Generic.Dictionary&lt;'Key, 'Value&gt;.AlternateLookup&lt;'AlternateKey&gt;" Usage="System.Collections.Generic.CollectionExtensions.GetAlternateLookup dictionary" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue, typename TAlternateKey&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::Dictionary&lt;TKey, TValue&gt;::AlternateLookup&lt;TAlternateKey&gt; GetAlternateLookup(System::Collections::Generic::Dictionary&lt;TKey, TValue&gt; ^ dictionary);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Collections</AssemblyName>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue />
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <typeparam name="TAlternateKey">To be added.</typeparam>
+        <param name="dictionary">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValueOrDefault&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static TValue? GetValueOrDefault&lt;TKey,TValue&gt; (this System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt; dictionary, TKey key);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TValue GetValueOrDefault&lt;TKey, TValue&gt;(class System.Collections.Generic.IReadOnlyDictionary`2&lt;!!TKey, !!TValue&gt; dictionary, !!TKey key) cil managed" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.CollectionExtensions.GetValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetValueOrDefault(Of TKey, TValue) (dictionary As IReadOnlyDictionary(Of TKey, TValue), key As TKey) As TValue" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="F#" Value="static member GetValueOrDefault : System.Collections.Generic.IReadOnlyDictionary&lt;'Key, 'Value&gt; * 'Key -&gt; 'Value" Usage="System.Collections.Generic.CollectionExtensions.GetValueOrDefault (dictionary, key)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static TValue GetValueOrDefault(System::Collections::Generic::IReadOnlyDictionary&lt;TKey, TValue&gt; ^ dictionary, TKey key);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public static TValue GetValueOrDefault&lt;TKey,TValue&gt; (this System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt; dictionary, TKey key);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Collections</AssemblyName>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">TValue</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <TypeParameter Name="TValue" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="dictionary" Type="System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="key" Type="TKey" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="dictionary">To be added.</param>
+        <param name="key">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetValueOrDefault&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static TValue GetValueOrDefault&lt;TKey,TValue&gt; (this System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt; dictionary, TKey key, TValue defaultValue);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TValue GetValueOrDefault&lt;TKey, TValue&gt;(class System.Collections.Generic.IReadOnlyDictionary`2&lt;!!TKey, !!TValue&gt; dictionary, !!TKey key, !!TValue defaultValue) cil managed" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.CollectionExtensions.GetValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0,``1)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetValueOrDefault(Of TKey, TValue) (dictionary As IReadOnlyDictionary(Of TKey, TValue), key As TKey, defaultValue As TValue) As TValue" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="F#" Value="static member GetValueOrDefault : System.Collections.Generic.IReadOnlyDictionary&lt;'Key, 'Value&gt; * 'Key * 'Value -&gt; 'Value" Usage="System.Collections.Generic.CollectionExtensions.GetValueOrDefault (dictionary, key, defaultValue)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static TValue GetValueOrDefault(System::Collections::Generic::IReadOnlyDictionary&lt;TKey, TValue&gt; ^ dictionary, TKey key, TValue defaultValue);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Collections</AssemblyName>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">TValue</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <TypeParameter Name="TValue" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="dictionary" Type="System.Collections.Generic.IReadOnlyDictionary&lt;TKey,TValue&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="key" Type="TKey" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="defaultValue" Type="TValue" Index="2" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <Attributes>
+            <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1">
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.AllowNull]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.AllowNull&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="dictionary">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="defaultValue">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static bool Remove&lt;TKey,TValue&gt; (this System.Collections.Generic.IDictionary&lt;TKey,TValue&gt; dictionary, TKey key, out TValue value);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool Remove&lt;TKey, TValue&gt;(class System.Collections.Generic.IDictionary`2&lt;!!TKey, !!TValue&gt; dictionary, !!TKey key, [out] !!TValue&amp; value) cil managed" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.CollectionExtensions.Remove``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1@)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Remove(Of TKey, TValue) (dictionary As IDictionary(Of TKey, TValue), key As TKey, ByRef value As TValue) As Boolean" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="F#" Value="static member Remove : System.Collections.Generic.IDictionary&lt;'Key, 'Value&gt; * 'Key * 'Value -&gt; bool" Usage="System.Collections.Generic.CollectionExtensions.Remove (dictionary, key, value)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool Remove(System::Collections::Generic::IDictionary&lt;TKey, TValue&gt; ^ dictionary, TKey key, [Runtime::InteropServices::Out] TValue % value);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Collections</AssemblyName>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">System.Boolean</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <TypeParameter Name="TValue" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="dictionary" Type="System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="key" Type="TKey" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="value" Type="TValue" RefType="out" Index="2" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+          <Attributes>
+            <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1">
+              <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.MaybeNullWhen(false)]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.MaybeNullWhen(false)&gt;]</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="dictionary">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryAdd&lt;TKey,TValue&gt;">
+      <MemberSignature Language="C#" Value="public static bool TryAdd&lt;TKey,TValue&gt; (this System.Collections.Generic.IDictionary&lt;TKey,TValue&gt; dictionary, TKey key, TValue value);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryAdd&lt;TKey, TValue&gt;(class System.Collections.Generic.IDictionary`2&lt;!!TKey, !!TValue&gt; dictionary, !!TKey key, !!TValue value) cil managed" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.CollectionExtensions.TryAdd``2(System.Collections.Generic.IDictionary{``0,``1},``0,``1)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function TryAdd(Of TKey, TValue) (dictionary As IDictionary(Of TKey, TValue), key As TKey, value As TValue) As Boolean" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="F#" Value="static member TryAdd : System.Collections.Generic.IDictionary&lt;'Key, 'Value&gt; * 'Key * 'Value -&gt; bool" Usage="System.Collections.Generic.CollectionExtensions.TryAdd (dictionary, key, value)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool TryAdd(System::Collections::Generic::IDictionary&lt;TKey, TValue&gt; ^ dictionary, TKey key, TValue value);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Collections</AssemblyName>
+        <AssemblyVersion>4.1.0.0</AssemblyVersion>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+        <AssemblyVersion>4.1.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>7.0.0.0</AssemblyVersion>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">System.Boolean</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="TKey" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <TypeParameter Name="TValue" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="dictionary" Type="System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;" RefType="this" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="key" Type="TKey" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      </Parameters>
+      <Docs>
+        <typeparam name="TKey">To be added.</typeparam>
+        <typeparam name="TValue">To be added.</typeparam>
+        <param name="dictionary">To be added.</param>
+        <param name="key">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
